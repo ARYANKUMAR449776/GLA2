@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+#filter, #sort {
+    margin-bottom: 20px;
+}
+
+.product-card {
+    border: solid black 1px;
+    border-radius: 10px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-right: 30%;
+    margin-left: 30%; 
+    
+}
+
+.product-card img {
+    width: 20%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+#ascSort{
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative;
+    left: 35%;
+}
+#ascSort:hover{
+    background-color: black;
+    color: gray;
+}
+
+#decSort{
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative;
+    left: 35%;
+}
+#decSort:hover{
+    background-color: black;
+    color: gray;
+}
+label{
+    font-size:x-large;
+    position: relative;
+    left: 45%;
+    
+}
+
+#category{
+padding: 0.2%;
+position: relative;
+left: 45%;
+}
